@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="styles2.css">
+  <title>Eco-Friendly Products Store</title>
+</head>
+<body>
+  
+    <nav class="navbar">
+        <div class="logo"><h1>DP Shops</h1></div>
+        <ul class="menu">
+            <li><a href="Index.html">HOME</a></li>
+            <li><a href="" class="active">Calculator</a></li>
+            <li><a href="Contact.html" class="Contact">Contact</a></li>
+        </ul>
+<!--For responsive buttons-->        
+        <div class="menu-btn">
+            <i class="fa fa-bars"></i>
+        </div>
+    </nav>
+</section>
+<section class="content">
+    <h1>What's a carbon footprint</h1>
+    <p>Your carbon footprint is a concept used to capture the impact your activities have on carbon emissions and is measured in kilograms of (CO2e)</p>
+    <style>
+        /* Styles for the calculator section */
+        #calculator {
+          font-family: Arial, sans-serif; /* Sets the font for the calculator section */
+          background-color:transparent; /* Light grey background */
+          border: 1px solid #070000; /* Adds a subtle border */
+          padding: 20px; /* Adds padding inside the section */
+          border-radius: 8px; /* Rounds the corners */
+          max-width: 300px; /* Maximum width of the section */
+          margin: left; /* Centers the section horizontally */
+        }
+      
+        #calculator h2 {
+          color: #333; /* Dark grey color for the heading */
+          text-align: center; /* Centers the heading text */
+        }
+      
+        #carbonCalculator {
+          display: flex; /* Uses flexbox for layout */
+          flex-direction: column; /* Stacks the flex items vertically */
+        }
+      
+        #carbonCalculator input {
+          margin-bottom: 10px; /* Adds space below the input */
+          padding: 10px; /* Padding inside the input */
+          border: 2px solid #ccc; /* Border for the input */
+          border-radius: 4px; /* Rounded corners for the input */
+          outline: none; /* Removes the outline to avoid distraction */
+        }
+      
+        #carbonCalculator input:focus {
+          border-color: #0056b3; /* Changes border color on focus */
+        }
+      
+        #carbonCalculator button {
+          padding: 10px 20px; /* Padding inside the button */
+          background-color: red; /* Blue background color */
+          color: white; /* Text color for the button */
+          border: none; /* No border for the button */
+          border-radius: 4px; /* Rounded corners for the button */
+          cursor: pointer; /* Cursor indicates the button is clickable */
+          transition: background-color 0.3s; /* Smooth transition for background color */
+        }
+      
+        #carbonCalculator button:hover {
+          background-color: #0056b3; /* Darker blue when hovered */
+        }
+      </style>
+      
+      <section id="calculator">
+        <h2>Carbon Footprint Calculator</h2>
+        <form id="carbonCalculator">
+          <input type="number" id="productUse" name="productUse" required placeholder="Enter usage per day">
+          <button type="submit">Calculate</button>
+        </form>
+      </section>
+</section>
+    <h1 class="pheading">Our Latest Products</h1>
+<!--Our Latest Product-->  
+    <section class="sec">
+        <div class="products">
+            <!--Card start-->
+            <div class="card">
+                <div class="img"><img src="Bag.webp"></div>
+                <div class="desc">Eco Friendly Product</div>
+                <div class="title">Eco Friendly Bag</div>
+                <div class="box">
+                    <div class="price">$50</div>
+                    <button class="btn"><a href="order.html">Buy Now</a></button>
+                </div>
+            </div>
+            <!--Card end-->
+           <!--Card start-->
+           <div class="card">
+            <div class="img"><img src="flowervase.webp"></div>
+            <div class="desc">Eco Friendly Product</div>
+            <div class="title">Flowervase</div>
+            <div class="box">
+                <div class="price">$20</div>
+                <button class="btn"><a href="order.html">Buy Now</a></button>
+            </div>
+        </div>
+        <!--Card end-->
+           <!--Card start-->
+           <div class="card">
+            <div class="img"><img src="brush.jpg"></div>
+            <div class="desc">Eco Friendly Product</div>
+            <div class="title">Tooth-Brush</div>
+            <div class="box">
+                <div class="price">$5</div>
+                <button class="btn"><a href="order.html">Buy Now</a></button>
+            </div>
+        </div>
+        <!--Card end-->
+           <!--Card start-->
+           <div class="card">
+            <div class="img"><img src="Bottle.jpg"></div>
+            <div class="desc">Eco Friendly Product</div>
+            <div class="title">Bottle</div>
+            <div class="box">
+                <div class="price">$10</div>
+                <button class="btn"><a href="order.html">Buy Now</a></button>
+            </div>
+        </div>
+        <!--Card end-->
+        </div>
+
+    </section>
+    <script src="script.js"></script>
+    <footer>
+        <p>Copyrights at<a href=""> DP Shop</a></p>
+    </footer>
+</body>
+</html>
